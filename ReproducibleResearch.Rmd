@@ -1,0 +1,52 @@
+---
+title: "Reproducible Workflows"
+author: "Marta Badia Graset"
+date: "9/4/2019"
+output: pdf_document
+---
+
+- Methods reproducibility: from data to figure understanding the steps (the only change is the analyst is different) -- Minimal standard and we expect it in the lab. 
+- Results reproducibility: everything is the same but the analysis - we use it in new data (as DiMSum pipeline)
+- Inferential reproducibility
+
+* Reproducibility Project: Cancer Study - only 18/50 could be replicated. 
+* Only 36% psychology studies can be replicated
+* John Ioannidis paper: Why Most Published Research Findings Are False https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.0020124 
+
+We would like to achieve *linked and executable code and data* - maybe this is something that we could implement for TDP43 paper as well... (André was interested). 
+EU funding asks for data management plan http://www.dcc.ac.uk
+
+Data management plan: 
+* Administrative data
+* Data collection 
+* Documentation and metadata: 
+**Metadata is quite miscellaneous - within lab we don't standarize it. Do we understand the folder structure of our labmates? (FOLDER STRUCTURE)
+* Ethics and Legal compliance: 
+** Analysis-to-data pipeline: allows you to know how your data looks like but without having your data (cool when your data is private and delicate)
+* Storage and backup 
+* Selection and preservation: 
+** How long we should store our data? FOREVER if possible. At least 10 years for shitty data. 
+* Data Sharing
+** Where?
+* Responsibilities and resources
+
+In exploratory analysis we can also include our uncertainity. For the data management plan, we will always know the data for our confirmatory part. After that, we can complement w/ our additional data. We can state that we are gonna update our data management plan. 
+
+* Re3data: https://www.re3data.org/: searcher for databases and repositories: good to check permissions of lots of repositories and to find new repositiories that might be for us.
+* Zenodo: stores your GitHub repository as it is, you can make changes on your repositories but in Zenodo it will stay the same (it gives you a DOI to your GitHub account in that moment). 
+* GitHub and GitLab: controlled by git (version control)
+
+F:
+A:
+I:
+R:
+
+* Pre-process the data to share it (this makes data available and memmory affordable to other users with a non-excessive bioinformatician profile). To what extent? Let's make it easy for other people and carry out the difficult analysis. Identify the worst part and make it for the users. 
+* Notebooks: take people through the results of our paper, not to ru big processes on them. 
+
+*How can we ensure that we can run our codes in 10 years?*
+With version control tools (GitHub). It helps to keep track of your code. To make changes it's good (mandatory in case of working in groups) to work using branches. 
+
+Git basics: 
+g
+
